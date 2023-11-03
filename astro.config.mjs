@@ -5,16 +5,17 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'MPW',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				reddit: 'https://reddit.com/r/edmproduction',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'About',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'About this wiki', link: '/about/' },
+						{ label: 'Contributing', link: '/contributing/' },
 					],
 				},
 				{
